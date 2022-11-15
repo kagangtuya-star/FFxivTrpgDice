@@ -18,7 +18,7 @@ app = Flask(import_name=__name__)
 
 # 切分频道消息
 def message_re(message):
-    res = re.search(r'([\s\S]*):([.。][\s\S]*)', message, re.I)
+    res = re.search(r'([^@]{1,6})[@\s\S]*:([.。][\s\S]*)', message, re.I)
     return [res.group(1), res.group(2)]
 
 
@@ -44,7 +44,10 @@ def postnamazu_send(send_m, channel):
     url = "http://127.0.0.1:" + postnamazu_port + "/command"
     # 延后发送1s，不然狒狒会提示“无法在悄悄话、说话、呼喊以及喊话频道连续发言”
     sleep(1)
-    send_mes = channel + " " + send_m
+    if channel == "/t":
+        send_mes = "/r" + " " + send_m
+    else:
+        send_mes = channel + " " + send_m
     requests.post(url, data=send_mes.encode('utf-8'))
     time_temp = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))
     print("[{0}] 鲶鱼精发送的信息: {1}".format(time_temp, send_m))
@@ -55,11 +58,10 @@ def postnamazu_send(send_m, channel):
 def json_request():
     # 接收处理json数据请求
     data = json.loads(request.data)  # 将json字符串转为dict，报这个错误别管了，json效验错误但没什么毛病
-    ffmassage = ''
     ffmassage = data['ffmassage']
     types = data['types']
     time_temp = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))
-    print("[{0}] 收到来自{1}频道的消息 {2}".format(time_temp, channel_name[channel_ls.index(types, 1)], ffmassage))
+    print("[{0}] 收到来自{1}频道的消息 {2}".format(time_temp, channel_name[channel_ls.index(types)], ffmassage))
     # 切分玩家名和掷骰命令 [玩家名,掷骰命令]
     if ffmassage.find(".") > 0 or ffmassage.find("。") > 0:
         ls_receive = message_re(ffmassage)
