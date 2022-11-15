@@ -49,7 +49,9 @@
 
 ### windows平台运行
 
-点此 [Releases ](https://github.com/kagangtuya-star/FFxivTrpgDice/releases) 下载压缩包解压双击exe即可，**如果闪退就是你没解压完，exe文件同文件夹下需有config.json 配置文件才能运行**
+**此exe程序可在win10以上系统运行，win7可能不一定能运行，32位系统肯定不能运行。**
+
+点此 [Releases ](https://github.com/kagangtuya-star/FFxivTrpgDice/releases)或 [百度云盘](https://pan.baidu.com/s/1XOszQGIIXiSyKfyzJNkSfw?pwd=ecr9) 下载压缩包解压后双击exe即可，**如果闪退就是你没解压完，exe文件同文件夹下需有config.json 配置文件才能运行**
 
 ![](https://raw.githubusercontent.com/kagangtuya-star/picgo1/main/FFxivTrpgDice20221115132902.png)
 
@@ -57,7 +59,7 @@
 
 **向act的高级触发器导入骰子转发的触发器**
 
-点 掷骰指令发送器.xml 或者从上一步的压缩包里 下载，导入方法（以CafeAct为例子，呆萌act同理）
+点 [掷骰指令发送器.xml](https://github.com/kagangtuya-star/FFxivTrpgDice/releases/download/FFxivTrpgDice1.0/default.xml) 或者从上一步的压缩包里 下载，导入方法（以CafeAct为例子，呆萌act同理）
 
 ![](https://raw.githubusercontent.com/kagangtuya-star/picgo1/main/FFxivTrpgDice20221115133052.png)
 
