@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<TriggernometryExport Version="1">
+  <ExportedFolder Id="174abff1-8be6-4fa0-98fa-4c17d6ac9e9d" Name="掷骰指令发送器" Enabled="true">
+    <Folders />
+    <Triggers>
+      <Trigger Enabled="true" Name="8.3跨服贝3频道" Id="4d0afddb-c10e-4921-9d0a-3e1c2a325e4f" RegularExpression="^.{14} (?:\w+ )00:0066:(?&lt;siliao&gt;.*)">
+        <Actions>
+          <Action OrderNumber="1" DiscordWebhookURL="https://xn--v9x.net/api/?tracker=qq&amp;bot_qq=1175018004&amp;qq=923068035&amp;token=xingchen&amp;group=524816704" DiscordWebhookMessage="[说话] ${siliao}" JsonEndpointExpression="http://127.0.0.1:17777/json" JsonPayloadExpression="{&quot;ffmassage&quot;: &quot;${siliao}&quot;,&quot;types&quot;: &quot;cwl3&quot;}" OBSEndPoint="ws://${_const[OBSWebsocketEndpoint]}:${_const[OBSWebsocketPort]}" OBSPassword="${_const[OBSWebsocketPassword]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+        <Conditions />
+      </Trigger>
+      <Trigger Enabled="true" Name="8.2跨服贝2频道" Id="d38633c7-41e5-481e-8f73-9392e9872861" RegularExpression="^.{14} (?:\w+ )00:0065:(?&lt;siliao&gt;.*)">
+        <Actions>
+          <Action OrderNumber="1" DiscordWebhookURL="https://xn--v9x.net/api/?tracker=qq&amp;bot_qq=1175018004&amp;qq=923068035&amp;token=xingchen&amp;group=524816704" DiscordWebhookMessage="[说话] ${siliao}" JsonEndpointExpression="http://127.0.0.1:17777/json" JsonPayloadExpression="{&quot;ffmassage&quot;: &quot;${siliao}&quot;,&quot;types&quot;: &quot;/cwl2&quot;}" OBSEndPoint="ws://${_const[OBSWebsocketEndpoint]}:${_const[OBSWebsocketPort]}" OBSPassword="${_const[OBSWebsocketPassword]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+        <Conditions />
+      </Trigger>
+      <Trigger Enabled="true" Name="8.4跨服贝4频道" Id="bd108725-e64b-456a-bf22-880825fb34f4" RegularExpression="^.{14} (?:\w+ )00:0067:(?&lt;siliao&gt;.*)">
+        <Actions>
+          <Action OrderNumber="1" DiscordWebhookURL="https://xn--v9x.net/api/?tracker=qq&amp;bot_qq=1175018004&amp;qq=923068035&amp;token=xingchen&amp;group=524816704" DiscordWebhookMessage="[说话] ${siliao}" JsonEndpointExpression="http://127.0.0.1:17777/json" JsonPayloadExpression="{&quot;ffmassage&quot;: &quot;${siliao}&quot;,&quot;types&quot;: &quot;/cwl4&quot;}" OBSEndPoint="ws://${_const[OBSWebsocketEndpoint]}:${_const[OBSWebsocketPort]}" OBSPassword="${_const[OBSWebsocketPassword]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+        <Conditions />
+      </Trigger>
+      <Trigger Enabled="true" Name="7新人频道" Id="643016c1-bfed-4995-8ed3-8eea7f5c1c0e" RegularExpression="^.{14} (?:\w+ )00:001B:(?&lt;siliao&gt;.*)">
+        <Actions>
+          <Action OrderNumber="1" DiscordWebhookURL="https://xn--v9x.net/api/?tracker=qq&amp;bot_qq=1175018004&amp;qq=923068035&amp;token=xingchen&amp;group=524816704" DiscordWebhookMessage="[说话] ${siliao}" JsonEndpointExpression="http://127.0.0.1:17777/json" JsonPayloadExpression="{&quot;ffmassage&quot;: &quot;${siliao}&quot;,&quot;types&quot;: &quot;/b&quot;}" OBSEndPoint="ws://${_const[OBSWebsocketEndpoint]}:${_const[OBSWebsocketPort]}" OBSPassword="${_const[OBSWebsocketPassword]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+        <Conditions />
+      </Trigger>
+      <Trigger Enabled="true" Name="8.1跨服贝1频道" Id="bbce4f73-2591-45ac-a934-2861be1aed29" RegularExpression="^.{14} (?:\w+ )00:0025:(?&lt;siliao&gt;.*)">
+        <Actions>
+          <Action OrderNumber="1" DiscordWebhookURL="https://xn--v9x.net/api/?tracker=qq&amp;bot_qq=1175018004&amp;qq=923068035&amp;token=xingchen&amp;group=524816704" DiscordWebhookMessage="[说话] ${siliao}" JsonEndpointExpression="http://127.0.0.1:17777/json" JsonPayloadExpression="{&quot;ffmassage&quot;: &quot;${siliao}&quot;,&quot;types&quot;: &quot;/cwl1&quot;}" OBSEndPoint="ws://${_const[OBSWebsocketEndpoint]}:${_const[OBSWebsocketPort]}" OBSPassword="${_const[OBSWebsocketPassword]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+        <Conditions />
+      </Trigger>
+      <Trigger Enabled="true" Name="5喊话频道" Id="a4209ec3-bbe0-42e0-98a2-f73f938ef224" RegularExpression="^.{14} (?:\w+ )00:000B:(?&lt;siliao&gt;.*)">
+        <Actions>
+          <Action OrderNumber="1" DiscordWebhookURL="https://xn--v9x.net/api/?tracker=qq&amp;bot_qq=1175018004&amp;qq=923068035&amp;token=xingchen&amp;group=524816704" DiscordWebhookMessage="[说话] ${siliao}" JsonEndpointExpression="http://127.0.0.1:17777/json" JsonPayloadExpression="{&quot;ffmassage&quot;: &quot;${siliao}&quot;,&quot;types&quot;: &quot;/sh&quot;}" OBSEndPoint="ws://${_const[OBSWebsocketEndpoint]}:${_const[OBSWebsocketPort]}" OBSPassword="${_const[OBSWebsocketPassword]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+        <Conditions />
+      </Trigger>
+      <Trigger Enabled="true" Name="6部队频道" Id="73fefd8d-6a62-4381-b7ac-877b9fa4ea2a" RegularExpression="^.{14} (?:\w+ )00:0018:(?&lt;siliao&gt;.*)">
+        <Actions>
+          <Action OrderNumber="1" DiscordWebhookURL="https://xn--v9x.net/api/?tracker=qq&amp;bot_qq=1175018004&amp;qq=923068035&amp;token=xingchen&amp;group=524816704" DiscordWebhookMessage="[说话] ${siliao}" JsonEndpointExpression="http://127.0.0.1:17777/json" JsonPayloadExpression="{&quot;ffmassage&quot;: &quot;${siliao}&quot;,&quot;types&quot;: &quot;/fc&quot;}" OBSEndPoint="ws://${_const[OBSWebsocketEndpoint]}:${_const[OBSWebsocketPort]}" OBSPassword="${_const[OBSWebsocketPassword]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+        <Conditions />
+      </Trigger>
+      <Trigger Enabled="true" Name="3小队频道" Id="6216c0a2-a40b-4fd1-b275-1210aade5c7a" RegularExpression="^.{14} (?:\w+ )00:000E:(?&lt;siliao&gt;.*)">
+        <Actions>
+          <Action OrderNumber="1" DiscordWebhookURL="https://xn--v9x.net/api/?tracker=qq&amp;bot_qq=1175018004&amp;qq=923068035&amp;token=xingchen&amp;group=524816704" DiscordWebhookMessage="[说话] ${siliao}" JsonEndpointExpression="http://127.0.0.1:17777/json" JsonPayloadExpression="{&quot;ffmassage&quot;: &quot;${siliao}&quot;,&quot;types&quot;: &quot;/p&quot;}" OBSEndPoint="ws://${_const[OBSWebsocketEndpoint]}:${_const[OBSWebsocketPort]}" OBSPassword="${_const[OBSWebsocketPassword]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+        <Conditions />
+      </Trigger>
+      <Trigger Enabled="true" Name="4呼喊频道" Id="7545984c-b884-4224-98ee-e1d56fd81546" RegularExpression="^.{14} (?:\w+ )00:001E:(?&lt;siliao&gt;.*)">
+        <Actions>
+          <Action OrderNumber="1" DiscordWebhookURL="https://xn--v9x.net/api/?tracker=qq&amp;bot_qq=1175018004&amp;qq=923068035&amp;token=xingchen&amp;group=524816704" DiscordWebhookMessage="[说话] ${siliao}" JsonEndpointExpression="http://127.0.0.1:17777/json" JsonPayloadExpression="{&quot;ffmassage&quot;: &quot;${siliao}&quot;,&quot;types&quot;: &quot;/y&quot;}" OBSEndPoint="ws://${_const[OBSWebsocketEndpoint]}:${_const[OBSWebsocketPort]}" OBSPassword="${_const[OBSWebsocketPassword]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+        <Conditions />
+      </Trigger>
+      <Trigger Enabled="true" Name="2说话频道" Id="d0d0856c-392b-4915-9c1f-c77ec5d35ac2" RegularExpression="^.{14} (?:\w+ )00:000A:(?&lt;siliao&gt;.*)">
+        <Actions>
+          <Action OrderNumber="1" DiscordWebhookURL="https://xn--v9x.net/api/?tracker=qq&amp;bot_qq=1175018004&amp;qq=923068035&amp;token=xingchen&amp;group=524816704" DiscordWebhookMessage="[说话] ${siliao}" JsonEndpointExpression="http://127.0.0.1:17777/json" JsonPayloadExpression="{&quot;ffmassage&quot;: &quot;${siliao}&quot;,&quot;types&quot;: &quot;/s&quot;}" OBSEndPoint="ws://${_const[OBSWebsocketEndpoint]}:${_const[OBSWebsocketPort]}" OBSPassword="${_const[OBSWebsocketPassword]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+        <Conditions />
+      </Trigger>
+      <Trigger Enabled="true" Name="8.5跨服贝5频道" Id="d22d87a0-7335-4f21-88a2-4cac91c6845c" RegularExpression="^.{14} (?:\w+ )00:0068:(?&lt;siliao&gt;.*)">
+        <Actions>
+          <Action OrderNumber="1" DiscordWebhookURL="https://xn--v9x.net/api/?tracker=qq&amp;bot_qq=1175018004&amp;qq=923068035&amp;token=xingchen&amp;group=524816704" DiscordWebhookMessage="[说话] ${siliao}" JsonEndpointExpression="http://127.0.0.1:17777/json" JsonPayloadExpression="{&quot;ffmassage&quot;: &quot;${siliao}&quot;,&quot;types&quot;: &quot;/cwl5&quot;}" OBSEndPoint="ws://${_const[OBSWebsocketEndpoint]}:${_const[OBSWebsocketPort]}" OBSPassword="${_const[OBSWebsocketPassword]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+        <Conditions />
+      </Trigger>
+      <Trigger Enabled="true" Name="1私聊频道" Id="55e07b86-a7f1-4a59-be9d-f311bf9a7b7e" RegularExpression="^.{14} (?:\w+ )00:000D:(?&lt;siliao&gt;.*)">
+        <Actions>
+          <Action OrderNumber="1" DiscordWebhookURL="https://xn--v9x.net/api/?tracker=qq&amp;bot_qq=1175018004&amp;qq=923068035&amp;token=xingchen&amp;group=524816704" DiscordWebhookMessage="[说话] ${siliao}" JsonEndpointExpression="http://127.0.0.1:17777/json" JsonPayloadExpression="{&quot;ffmassage&quot;: &quot;${siliao}&quot;,&quot;types&quot;: &quot;/t&quot;}" OBSEndPoint="ws://${_const[OBSWebsocketEndpoint]}:${_const[OBSWebsocketPort]}" OBSPassword="${_const[OBSWebsocketPassword]}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="GenericJson">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+        <Conditions />
+      </Trigger>
+    </Triggers>
+  </ExportedFolder>
+</TriggernometryExport>
