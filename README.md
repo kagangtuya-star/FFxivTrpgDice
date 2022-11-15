@@ -108,21 +108,21 @@ win10可用，其他没测
 
 基本设置添加master UI:1001 保存
 
-![image-20221115134547319](C:\Users\chenzihan\AppData\Roaming\Typora\typora-user-images\image-20221115134547319.png)
+![](https://raw.githubusercontent.com/kagangtuya-star/picgo1/main/FFxivTrpgDice20221115153501.png)
 
 进入指令测试界面
 
-![image-20221115134621286](C:\Users\chenzihan\AppData\Roaming\Typora\typora-user-images\image-20221115134621286.png)
+![](https://raw.githubusercontent.com/kagangtuya-star/picgo1/main/FFxivTrpgDice20221115153532.png)
 
 按f12进入开发者模式，我用的是win10自带的edge浏览器
 
-![image-20221115134912243](C:\Users\chenzihan\AppData\Roaming\Typora\typora-user-images\image-20221115134912243.png)
+![](https://raw.githubusercontent.com/kagangtuya-star/picgo1/main/FFxivTrpgDice20221115153606.png)
 
 ![](https://raw.githubusercontent.com/kagangtuya-star/picgo1/main/FFxivTrpgDice20221115135343.png)
 
 打开exe文件目录下的config.json
 
-![image-20221115135617462](C:\Users\chenzihan\AppData\Roaming\Typora\typora-user-images\image-20221115135617462.png)
+![](https://raw.githubusercontent.com/kagangtuya-star/picgo1/main/FFxivTrpgDice20221115153646.png)
 
 如此完成
 
