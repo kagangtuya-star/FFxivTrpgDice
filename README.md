@@ -9,8 +9,10 @@
     - [有时候接收到消息但不回复怎么办？](#有时候接收到消息但不回复怎么办)
     - [我想记录跑团log！](#我想记录跑团log)
     - [我想让狒狒跑团体验更好！](#我想让狒狒跑团体验更好)
-  
+
 大陆内版本readme，有图片 https://kdocs.cn/l/clxpwKUeG532
+
+![](https://raw.githubusercontent.com/kagangtuya-star/picgo1/main/FFxivTrpgDiceSnipaste_2022-11-15_14-28-24.png)
 
 ![](https://raw.githubusercontent.com/kagangtuya-star/picgo1/main/FFxivTrpgDice20221115131726.png)
 
