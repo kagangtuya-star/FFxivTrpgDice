@@ -1,8 +1,16 @@
 # FFxivTrpgDice
  一个最终幻想14与海豹掷骰核心的中转器，让trpg骰娘直接为游戏提供掷骰服务
 
-大陆内版本readme，有图片
-https://kdocs.cn/l/clxpwKUeG532
+- [FFxivTrpgDice](#ffxivtrpgdice)
+    - [依赖](#依赖)
+    - [原理](#原理)
+    - [Python运行](#python运行)
+    - [windows平台运行](#windows平台运行)
+    - [有时候接收到消息但不回复怎么办？](#有时候接收到消息但不回复怎么办)
+    - [我想记录跑团log！](#我想记录跑团log)
+    - [我想让狒狒跑团体验更好！](#我想让狒狒跑团体验更好)
+  
+大陆内版本readme，有图片 https://kdocs.cn/l/clxpwKUeG532
 
 ![](https://raw.githubusercontent.com/kagangtuya-star/picgo1/main/FFxivTrpgDice20221115131726.png)
 
